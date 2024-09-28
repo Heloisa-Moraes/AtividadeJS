@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora - desafio 05</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            background-color: rgb(152, 224, 184);
+        }
+        table {
+            margin: 10px auto;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+    <script src="desafio05.js"></script>
+</head>
+<body>
+    <h1>Vamos calcular!</h1>
+    <input type="number" id="num" placeholder="Digite um número:">
+    <button onclick="calcular()">Calcular</button>
+
+    <table id="resultado" style="display: none;">
+    <thead>
+        <tr>
+            <th>Multiplicação</th>
+            <th>Resultado</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+    </table>
+
+       
+</body>
+</html>
